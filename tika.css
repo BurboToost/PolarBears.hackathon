@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background: #f5f8fa;
+  background-color: #ebcc5c;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  color: #fff;
+  padding: 20px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.tika-summary {
+  display: flex;
+  justify-content: space-around;
+  background: #e4981d;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+.summary-item h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.summary-item p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Notice Banner */
+.notice {
+  background: #e7f3ff;
+  color: #0078c2;
+  padding: 12px 20px;
+  font-size: 14px;
+  margin: 15px auto;
+  width: 90%;
+  border-radius: 8px;
+  border-left: 4px solid #0094b9;
+}
+
+/* Vaccination Cards */
+.container {
+  flex: 1;
+  padding: 0 20px 80px;
+}
+
+.section-title {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.tika-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tika-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tika-icon {
+  width: 30px;
+  height: 30px;
+  background: #c9f7ca;
+  color: #22aa22;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.tika-left h4 {
+  font-size: 15px;
+  color: #333;
+}
+
+.tika-left .desc {
+  font-size: 13px;
+  color: #666;
+}
+
+.tika-left .date {
+  font-size: 13px;
+  color: #777;
+}
+
+.status {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 4px 10px;
+  border-radius: 8px;
+}
+
+.status.complete {
+  background: #e0f7e3;
+  color: #2a9b3e;
+}
+
+/* Footer Navigation */
+.footer {
+  background: #fff;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.footer a.active {
+  color: #0094b9;
+}

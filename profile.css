@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background-color: #ebcc5c;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  background-color: #e67f18;
+  color: #fff;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.user-card {
+  background: #8b5c1e;
+  margin: 15px auto 0;
+  border-radius: 10px;
+  padding: 15px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  font-size: 18px;
+}
+
+.user-info p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* Health Summary */
+.container {
+  flex: 1;
+  padding: 20px;
+}
+
+.health-summary {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.summary-box {
+  text-align: center;
+}
+
+.summary-box h4 {
+  font-size: 14px;
+  color: #555;
+}
+
+.summary-box p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0094b9;
+}
+
+/* Personal Info */
+.personal-info {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.personal-info h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.personal-info ul {
+  list-style: none;
+}
+
+.personal-info li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+/* Info Links */
+.info-links {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.info-item {
+  padding: 12px 20px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.info-item:hover {
+  background: #f0f9ff;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #ff4b4b;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #e03a3a;
+}
+
+/* Footer */
+.footer {
+  background: #fff;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.footer a.active {
+  color: #0094b9;
+}

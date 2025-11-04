@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>অ্যাপয়েন্টমেন্ট বুকিং</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <h1>অ্যাপয়েন্টমেন্ট বুকিং</h1>
+      <input type="text" placeholder="ডাক্তার বা বিশেষজ্ঞ খুঁজুন..." />
+    </header>
+
+    <!-- Category Buttons -->
+    <nav class="category">
+      <button class="active">সবচেয়ে</button>
+      <button>সাধারণ চিকিৎসক</button>
+      <button>শিশু বিশেষজ্ঞ</button>
+      <button>স্ত্রী রোগ বিশেষজ্ঞ</button>
+      <button>হৃদরোগ বিশেষজ্ঞ</button>
+      <button>চর্মরোগ বিশেষজ্ঞ</button>
+    </nav>
+
+    <!-- Notice -->
+    <div class="notice">
+      একজন ডাক্তার পাওয়া গেছে। অ্যাপয়েন্টমেন্ট বুক করতে সময় নির্বাচন করুন।
+    </div>
+
+    <!-- Doctor Card -->
+    <section class="doctor-card">
+      <div class="doctor-info">
+        <img src="https://via.placeholder.com/60" alt="Doctor" />
+        <div>
+          <h2>ডা. আবু সাবের</h2>
+          <p>MBBS, MD (Cardiology) • ২০ বছর অভিজ্ঞতা</p>
+          <p class="rating">⭐ 4.7 (312 রিভিউ)</p>
+          <p class="hospital">বাংলাদেশ মেডিকেল কলেজ হাসপাতাল</p>
+        </div>
+        <span class="fee">৮০০ টাকা</span>
+      </div>
+
+      <!-- Schedule -->
+      <div class="schedule">
+        <h3>উপলব্ধ সময়সূচি</h3>
+
+        <div class="day">
+          <h4>৯ নভেম্বর, ২০২৫ • রবিবার</h4>
+          <div class="times">
+            <button>১০:০০ সকাল</button>
+            <button>১:০০ দুপুর</button>
+            <button>৮:০০ রাত</button>
+          </div>
+        </div>
+
+        <div class="day">
+          <h4>১২ নভেম্বর, ২০২৫ • বুধবার</h4>
+          <div class="times">
+            <button>৯:৩০ সকাল</button>
+            <button>১:৩০ বিকাল</button>
+          </div>
+        </div>
+
+        <div class="day">
+          <h4>১৪ নভেম্বর, ২০২৫ • শুক্রবার</h4>
+          <div class="times">
+            <button>১০:০০ সকাল</button>
+            <button>৩:০০ বিকাল</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Book Button -->
+      <button class="book-btn">অ্যাপয়েন্টমেন্ট বুক করুন</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <nav class="bottom-nav">
+        <div class="nav-item">
+          🏠
+          <p><a href="home.html">হোম</a></p>
+        </div>
+        <div class="nav-item active">
+          ⚕️
+          <p><a href="seba.html">সেবা</a></p>
+        </div>
+        <div class="nav-item">
+          👤
+          <p><a href="profile.html">প্রোফাইল</a></p>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>

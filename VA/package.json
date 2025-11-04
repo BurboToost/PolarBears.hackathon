@@ -1,0 +1,17 @@
+{
+  "name": "medical-chatbot",
+  "version": "0.1.0",
+  "description": "Basic bilingual (English/Bangla) medical chatbot scaffold",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["medical", "chatbot", "bangla", "english"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "openai": "^4.9.0"
+  }
+}

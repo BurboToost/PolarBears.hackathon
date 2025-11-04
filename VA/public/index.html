@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>মেডিক্যাল চ্যাটবট (বাংলা)</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>মেডিক্যাল চ্যাটবট</h1>
+
+      <div class="controls">
+        <label>ভাষা:</label>
+        <button id="lang-en" class="lang">English</button>
+        <button id="lang-bn" class="lang active">বাংলা</button>
+
+        <div class="voice-controls">
+          <button id="mic-btn" class="mic" title="ভয়েস ইনপুট শুরু করুন">
+            🎤 ভয়েস শুরু করুন
+          </button>
+          <label class="voice-toggle"
+            ><input type="checkbox" id="voice-output" checked /> ভয়েস
+            উত্তর</label
+          >
+        </div>
+      </div>
+
+      <div id="chat" class="chat"></div>
+
+      <form id="chat-form" class="chat-form">
+        <textarea
+          id="message"
+          placeholder="আপনার প্রশ্ন বা লক্ষণ এখানে লিখুন..."
+          rows="2"
+        ></textarea>
+        <button type="submit">পাঠান</button>
+      </form>
+
+      <p class="disclaimer">
+        এই চ্যাটবটটি সাধারণ তথ্য দেয় এবং পেশাদার চিকিৎসা পরামর্শের বিকল্প নয়।
+        জরুরি অবস্থায় স্থানীয় জরুরি সেবার সঙ্গে যোগাযোগ করুন।
+      </p>
+    </div>
+
+    <script src="/chat.js"></script>
+  </body>
+</html>

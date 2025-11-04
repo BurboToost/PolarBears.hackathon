@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans Bengali", sans-serif;
+  background-color: #ebcc5c;
+  color: #0b0b0b;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+.header input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: white;
+  padding: 8px;
+  gap: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.tabs button {
+  border: 1px solid #cce5f6;
+  background-color: #f1f7ff;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.tabs .active {
+  background-color: #0090b2;
+  color: white;
+}
+
+/* Warning box */
+.warning {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 8px;
+}
+.warning.red {
+  background: #fff2f2;
+  border-left: 6px solid #ff4d4d;
+}
+.warning ul {
+  padding-left: 18px;
+  line-height: 1.6;
+}
+
+/* Disease Section */
+.disease {
+  margin: 16px;
+  padding: 16px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+.disease h2 {
+  margin-top: 0;
+}
+.disease h3 {
+  color: #005f7a;
+  margin-bottom: 4px;
+}
+.disease ul {
+  margin-top: 0;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+.note {
+  background: #fff8e1;
+  border-left: 4px solid #f8c200;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+/* Color themes */
+.orange {
+  border-left: 6px solid #ffb74d;
+  background: #fffaf3;
+}
+.blue {
+  border-left: 6px solid #64b5f6;
+  background: #f3f9ff;
+}
+.green {
+  border-left: 6px solid #4caf50;
+  background: #f4fff5;
+}
+
+/* Tag badge */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tag {
+  background-color: #e8fcef;
+  color: #007a33;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-around;
+  background: white;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+footer button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #555;
+  cursor: pointer;
+}
+footer .active {
+  color: #0090b2;
+  font-weight: 600;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.nav-item p {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.nav-item.active {
+  color: #0097a7;
+}

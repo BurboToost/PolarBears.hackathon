@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background-color: #e3f0dc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #e67f18;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+  border-radius: 0 0 60px 60px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+/* Login Card */
+.login-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icon {
+  background-color: #4dc66d;
+  color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 0 auto 10px;
+}
+
+.login-card h2 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+}
+
+.icon-field {
+  font-size: 1.2rem;
+  margin-right: 8px;
+  color: #555;
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  font-size: 0.85rem;
+  color: #4dc66d;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100%;
+  background-color: #38b6ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #2d9ad6;
+}
+
+.register {
+  font-size: 0.9rem;
+  margin-top: 15px;
+  color: #444;
+}
+
+.register a {
+  color: #4dc66d;
+  text-decoration: none;
+}

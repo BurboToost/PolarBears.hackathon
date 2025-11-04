@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background-color: #ebcc5c;
+  color: #333;
+  padding-bottom: 70px;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 25px;
+  border-radius: 0 0 30px 30px;
+}
+
+.header-left h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.header-left p {
+  font-size: 1rem;
+}
+
+.weather-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
+.header-right {
+  text-align: right;
+}
+
+.icon {
+  font-size: 1.8rem;
+}
+
+.temp {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 4px 10px;
+  margin-top: 10px;
+}
+
+/* Health Info */
+.health-info {
+  margin: 25px;
+}
+
+.health-info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  flex: 1;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #333;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.good {
+  background-color: #d7f5d4;
+  color: #1b7a2e;
+}
+
+/* Services */
+.services {
+  margin: 25px;
+}
+
+.services h2 {
+  margin-bottom: 15px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+}
+
+.service-item {
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 8px;
+  font-size: 1.4rem;
+}
+
+.blue {
+  background-color: #0097a7;
+}
+.navy {
+  background-color: #1565c0;
+}
+.purple {
+  background-color: #8e24aa;
+}
+.green {
+  background-color: #2e7d32;
+}
+.orange {
+  background-color: #ef6c00;
+}
+.teal {
+  background-color: #00796b;
+}
+
+/* Center Info */
+.center-info {
+  margin: 25px;
+  padding: auto;
+  gap: 4px;
+}
+
+.center-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.center-card .name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.center-card .distance {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.open {
+  color: #2e7d32;
+  margin-left: 8px;
+}
+
+.center-card button {
+  margin-top: 10px;
+  background-color: #0097a7;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 16px;
+  cursor: pointer;
+}
+
+/* Appointment Section */
+.appointments {
+  margin: 25px;
+}
+
+.appointment-card {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 15px;
+}
+
+.appointment-card .icon {
+  background-color: #0097a7;
+  color: white;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.details .doctor {
+  font-weight: 600;
+}
+
+.details .time {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.reminder {
+  background-color: #fff3e0;
+  border-radius: 10px;
+  padding: 12px;
+  color: #bf360c;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.nav-item p {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.nav-item.active {
+  color: #0097a7;
+}
