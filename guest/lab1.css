@@ -1,0 +1,159 @@
+body {
+  font-family: "Noto Sans Bengali", sans-serif;
+  background-color: #ebcc5c;
+  margin: 0;
+  color: #1e293b;
+}
+
+.header {
+  background-color: #e67f18;
+  color: white;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.menu {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.menu button {
+  background: #bb6a0c;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.menu button:hover {
+  background: #a6480a;
+}
+
+.notice {
+  margin: 1rem 2rem;
+  background: #fff7ed;
+  color: #b45309;
+  padding: 0.8rem 1rem;
+  border-left: 5px solid #f59e0b;
+  border-radius: 6px;
+}
+
+.report {
+  margin: 1.5rem 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 1rem 1.5rem;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  background: #22c55e;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.report-id {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-top: 0.4rem;
+}
+
+.details ul,
+.advice ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.details li,
+.advice li {
+  margin-bottom: 0.3rem;
+}
+
+.advice strong {
+  display: block;
+  margin-top: 1rem;
+  color: #0f172a;
+}
+
+.btn {
+  display: block;
+  margin: 1rem auto 0;
+  background: #0284c7;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0369a1;
+}
+
+/* Color variations */
+.red {
+  border-left: 6px solid #ef4444;
+}
+
+.blue {
+  border-left: 6px solid #3b82f6;
+}
+
+.purple {
+  border-left: 6px solid #a855f7;
+}
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.nav-item p {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.nav-item.active {
+  color: #0097a7;
+}

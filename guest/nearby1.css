@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background-color: #ebcc5c;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* Location Box */
+.location-box {
+  background: #e7f7ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px auto;
+  padding: 15px 20px;
+  width: 90%;
+  border-radius: 12px;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.location-icon {
+  font-size: 26px;
+  background: #d6f3ff;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.location-info h3 {
+  font-size: 16px;
+  color: #0094b9;
+}
+
+.change-btn {
+  color: #0094b9;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Centers List */
+.container {
+  flex: 1;
+  padding: 0 20px 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.center-card {
+  background: #fff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.center-card h4 {
+  font-size: 16px;
+  color: #222;
+  margin-bottom: 6px;
+}
+
+.center-card .distance {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.center-card .time {
+  font-size: 13px;
+  color: #666;
+}
+
+.details-btn {
+  background: #e0f7ff;
+  color: #0094b9;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  align-self: center;
+  transition: background 0.2s;
+}
+
+.details-btn:hover {
+  background: #c4efff;
+}
+
+/* Footer Navigation */
+.footer {
+  background: #fff;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.footer a.active {
+  color: #0094b9;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .location-box {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

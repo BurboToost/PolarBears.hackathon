@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Bengali", sans-serif;
+}
+
+body {
+  background-color: #ebcc5c;
+  color: #333;
+  padding-bottom: 70px;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 30px 30px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.back {
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.header h1 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.search {
+  width: 100%;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  color: #333;
+  outline: none;
+}
+
+/* Sections */
+.section {
+  margin: 25px;
+}
+
+.section h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+  background-color: #e0f7fa;
+  color: #a75c00;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.details h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.details p {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.arrow {
+  color: #bbb;
+  font-size: 1.2rem;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.nav-item p {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.nav-item.active {
+  color: #ad750e;
+}

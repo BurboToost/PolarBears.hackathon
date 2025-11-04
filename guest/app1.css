@@ -1,0 +1,182 @@
+/* General */
+body {
+  margin: 0;
+  font-family: "Noto Sans Bengali", sans-serif;
+  background-color: #ebcc5c;
+  color: #0b0b0b;
+}
+
+/* Header */
+.header {
+  background-color: #e67f18;
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+.header input {
+  width: 90%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Category buttons */
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  background: white;
+  padding: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+.category button {
+  background: #f1f7ff;
+  border: 1px solid #cce5f6;
+  border-radius: 20px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.category .active {
+  background-color: #0090b2;
+  color: white;
+}
+
+/* Notice */
+.notice {
+  background-color: #e6f4ff;
+  color: #00688b;
+  padding: 12px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Doctor card */
+.doctor-card {
+  background: white;
+  margin: 16px;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.doctor-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+}
+.doctor-info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.doctor-info .fee {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #e8fcef;
+  color: #007a33;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.rating {
+  color: #f1b400;
+  font-size: 14px;
+}
+.hospital {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Schedule */
+.schedule {
+  margin-top: 16px;
+}
+.schedule h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.day {
+  margin-bottom: 16px;
+}
+.day h4 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #00506e;
+}
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.times button {
+  border: 1px solid #0090b2;
+  background: #f1faff;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.times button:hover {
+  background: #0090b2;
+  color: white;
+}
+
+/* Book button */
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0090b2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.book-btn:hover {
+  background-color: #007a95;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  background: white;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+  flex-direction: row;
+}
+
+footer .active {
+  color: #0090b2;
+  font-weight: 600;
+}
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid #ddd;
+  padding: 8px 0;
+}
+
+.nav-item {
+  text-align: center;
+  font-size: 1.3rem;
+  color: #888;
+}
+
+.nav-item p {
+  font-size: 0.8rem;
+  margin-top: 3px;
+}
+
+.nav-item.active {
+  color: #0097a7;
+}
